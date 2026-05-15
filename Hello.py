@@ -38,7 +38,7 @@ s = {1, 2, 3} #set
 
 a = 10
 b = float(a)
-print(b)   # 10.0
+# print(b)   # 10.0
 
 num = 25
 text = str(num)
@@ -161,3 +161,28 @@ a = "Nitesh!!!!! !!!! !"
 #String  -- "Nitesh"
 #Range -- range(0,10) range of values 
 #Dictonary -- {1:"Mango" , 2: "Apple"} Key value pairs 
+
+
+#Operators in python 
+#arithmatic operator -- + , - , * , / , 
+#assignment operator -- '=' , '+=' , '-=' , '*='
+#unary operator -- n = -n
+#relational operator -- > ,< , >= , <= , == , !=
+#Logical operator -- and , or , not 
+
+
+#Number system conversion 
+
+# print(bin(25))   # decimal to binary conversion 
+# print(0b0111)    #binary to decimal
+# print(oct(25))   # decimal to octal
+# print(hex(25))   #decimal to hexa decimal 
+# print(hex(14))
+# print(0xf) 
+
+#Bitwise operator 
+#Complement(~)  -- changes 0 to 1 and 1 to 0 in binary form of that number 
+# print(~12)
+# print(12 & 13)  #bitwise and 
+# print(12 | 13)  #bitwise or 
+# print(12 ^ 13)  #bitwise xor 
